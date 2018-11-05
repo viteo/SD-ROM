@@ -26,7 +26,7 @@ F 3 "" H 850 2400 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x40 J2
+L sd-rom:Conn_01x40 J2
 U 1 1 5BCDD1AB
 P 4400 2700
 F 0 "J2" H 4350 4850 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "~" H 4400 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x40 J3
+L sd-rom:Conn_01x40 J3
 U 1 1 5BCDFD8C
 P 4800 2700
 F 0 "J3" H 4750 4850 50  0000 C CNN
@@ -107,7 +107,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8126.pdf" H 4000 6700 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J5
+L sd-rom:Conn_01x04_Male J5
 U 1 1 5C12D41B
 P 6050 6600
 F 0 "J5" H 6022 6482 50  0000 R CNN
@@ -162,7 +162,7 @@ F 3 "" H 5750 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L sd-rom:R R1
 U 1 1 5C421572
 P 5350 6500
 F 0 "R1" H 5420 6546 50  0000 L CNN
@@ -173,7 +173,7 @@ F 3 "~" H 5350 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L sd-rom:R R2
 U 1 1 5BE31CD3
 P 3350 4600
 F 0 "R2" H 3420 4646 50  0000 L CNN
@@ -195,7 +195,7 @@ F 3 "" H 3200 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:AMS1117-3.3 U2
+L sd-rom:AMS1117-3.3 U2
 U 1 1 5C0505FA
 P 4000 5700
 F 0 "U2" V 3954 5805 50  0000 L CNN
@@ -206,7 +206,7 @@ F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 4100 5450 50  0001 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C1
+L sd-rom:C C1
 U 1 1 5C052334
 P 3650 5350
 F 0 "C1" V 3398 5350 50  0000 C CNN
@@ -217,7 +217,7 @@ F 3 "~" H 3650 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C2
+L sd-rom:C C2
 U 1 1 5C052519
 P 3650 6050
 F 0 "C2" V 3398 6050 50  0000 C CNN
@@ -228,7 +228,7 @@ F 3 "~" H 3650 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R3
+L sd-rom:R R3
 U 1 1 5C23AA19
 P 5350 6700
 F 0 "R3" H 5420 6746 50  0000 L CNN
