@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:sd-rom-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -53,7 +52,7 @@ U 1 1 5BCDB6E2
 P 8300 2000
 F 0 "J4" H 8925 2165 50  0000 C CNN
 F 1 "SD44" H 8925 2074 50  0000 C CNN
-F 2 "sd-rom:PinHeader_2x22_P2.00mm_Horizontal" H 8300 2000 50  0001 C CNN
+F 2 "sd-rom:PinSocket_2x22_P2.00mm_Horizontal" H 8300 2000 50  0001 C CNN
 F 3 "" H 8300 2000 50  0001 C CNN
 	1    8300 2000
 	0    1    1    0   
@@ -254,8 +253,6 @@ Wire Wire Line
 	2250 4600 3200 4600
 Wire Wire Line
 	5000 4600 5600 4600
-Wire Wire Line
-	5600 4600 7700 4600
 Connection ~ 5600 4600
 Wire Wire Line
 	4600 6600 5600 6600
@@ -350,8 +347,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 1350 5550 1350
 Wire Wire Line
-	5250 1300 5000 1300
-Wire Wire Line
 	7300 1250 5450 1250
 Wire Wire Line
 	7500 1150 5350 1150
@@ -365,8 +360,6 @@ Wire Wire Line
 	5050 900  5000 900 
 Wire Wire Line
 	6700 3650 5700 3650
-Wire Wire Line
-	5700 3600 5000 3600
 Connection ~ 650  3850
 Connection ~ 8550 3450
 Wire Wire Line
@@ -743,11 +736,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 3350 6700 3650
 Wire Wire Line
-	5750 3500 5000 3500
-Wire Wire Line
 	5750 3600 5750 3500
-Wire Wire Line
-	6600 3600 5750 3600
 Wire Wire Line
 	6600 3350 6600 3600
 Wire Wire Line
@@ -758,8 +747,6 @@ Wire Wire Line
 	6500 3350 6500 3550
 Wire Wire Line
 	6300 3500 6300 3350
-Wire Wire Line
-	5850 3500 6300 3500
 Wire Wire Line
 	5850 3200 5850 3500
 Wire Wire Line
@@ -821,8 +808,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 1300 7200 1900
 Wire Wire Line
-	5500 1300 7200 1300
-Wire Wire Line
 	5500 1800 5500 1300
 Wire Wire Line
 	5550 1900 5000 1900
@@ -832,8 +817,6 @@ Wire Wire Line
 	7100 1900 7100 1350
 Wire Wire Line
 	7000 1400 7000 1900
-Wire Wire Line
-	5600 1400 7000 1400
 Wire Wire Line
 	5600 2000 5600 1400
 Wire Wire Line
@@ -917,4 +900,20 @@ Wire Wire Line
 	4650 6400 4600 6400
 Wire Wire Line
 	4800 6500 5200 6500
+Wire Wire Line
+	5600 1400 7000 1400
+Wire Wire Line
+	5750 3500 5000 3500
+Wire Wire Line
+	5850 3500 6300 3500
+Wire Wire Line
+	6600 3600 5750 3600
+Wire Wire Line
+	5700 3600 5000 3600
+Wire Wire Line
+	5250 1300 5000 1300
+Wire Wire Line
+	5500 1300 7200 1300
+Wire Wire Line
+	5600 4600 7700 4600
 $EndSCHEMATC
